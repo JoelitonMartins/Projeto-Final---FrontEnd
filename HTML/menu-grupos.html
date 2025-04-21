@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu para Grupos - Cantinho do Sabor</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Lexend+Giga:wght@100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Cantinho do Sabor</h1>
+        <nav>
+        <a href="index.html">Restaurante</a>
+        <a href="menu.html">Menu</a>
+        <a href="especialidades.html">Especialidades</a>
+        <a href="menu-grupos.html">Menus de Grupo</a>
+        <a href="reservas.html">Reservas</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Título principal da página de menu para grupos -->
+        <h1>Menu para Grupos</h1>
+        <!-- Subtítulo com uma breve descrição -->
+        <h3>Opções especiais para grupos. Escolha abaixo:</h3>
+        
+        <!-- Menu dropdowns e preços -->
+        <div class="content">
+            <!-- Descrição das opções de menu para grupos -->
+            <p class="description">Descubra nossas opções especiais para grupos! Escolha entre diferentes menus, perfeitos para todas as ocasiões. Ao selecionar sua opção, você será redirecionado para fazer sua reserva.</p>
+        
+            <!-- Dropdown para Menu 1 - Básico -->
+            <div class="dropdown">
+                <label for="menu-opcao-1">Menu 1 - Básico (20€ por pessoa)</label>                                                                                                                                           
+                <select id="menu-opcao-1">
+                    <option value="entrada">Entrada: Salada simples</option>
+                    <option value="prato-principal">Prato principal: Frango grelhado com arroz</option>
+                    <option value="sobremesa">Sobremesa: Pudim</option>
+                </select>
+            </div>
+        
+            <!-- Dropdown para Menu 2 - Premium -->
+            <div class="dropdown">
+                <label for="menu-opcao-2">Menu 2 - Premium (30€ por pessoa)</label>
+                <select id="menu-opcao-2">
+                    <option value="entrada">Entrada: Mandioca Frita</option>
+                    <option value="prato-principal">Prato principal: Picanha Premium</option>
+                    <option value="sobremesa">Sobremesa: Cheesecake</option>
+                </select>
+            </div>
+        
+            <!-- Dropdown para Menu 3 - Vegetariano -->
+            <div class="dropdown">
+                <label for="menu-opcao-3">Menu 3 - Vegetariano (35€ por pessoa)</label>
+                <select id="menu-opcao-3">
+                    <option value="entrada">Entrada: Bruschetta</option>
+                    <option value="prato-principal">Prato principal: Risoto de cogumelos</option>
+                    <option value="sobremesa">Sobremesa: Frutas da estação</option>
+                </select>
+            </div>
+        
+            <!-- Botão para redirecionar para a página de reservas -->
+            <div class="button-container">
+                <a href="reservas.html">Fazer Reserva</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Rodapé do site -->
+    <footer>
+        <!-- Informações de direitos autorais e contato -->
+        <p>&copy; 2025 Restaurante Cantinho do Sabor. Todos os direitos reservados.</p>
+        <p>Localização: Rua do Sabor, 123, Porto | Contato: +351 123 456 789</p>
+        <!-- Ícones de redes sociais -->
+        <div class="social-icons">
+            <a href="https://facebook.com"><img src="/Imagens/Facebook-imagem.png" alt="Facebook"></a>
+            <a href="https://twitter.com"><img src="/Imagens/Twitter-imagem.jpg" alt="Twitter"></a>
+            <a href="https://instagram.com"><img src="/Imagens/Instagram-imagem.png" alt="Instagram"></a>
+        </div>
+    </footer>
+
+    <!-- Inclusão do arquivo JavaScript -->
+    <script src="/JS/script.js"></script>
+</body>
+</html>
